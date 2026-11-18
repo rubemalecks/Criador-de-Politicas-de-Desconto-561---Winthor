@@ -1,0 +1,20 @@
+# Credenciais e configurações locais
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# PyInstaller (o .exe é distribuído à parte, nunca no Git)
+build/
+dist/
+*.exe
+
+# Oracle Instant Client (bibliotecas de terceiros, acima do limite do GitHub)
+oracle_client/
+
+# Cópias de trabalho
+* copy.py
+*.log
